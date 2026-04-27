@@ -2,7 +2,7 @@ name: Build and Push Docker Image
 
 on:
   push:
-    branches: [ "main" ] # Hoặc branch bạn đang dùng
+    branches: [ "master" ] # Hoặc branch bạn đang dùng
 
 jobs:
   build-and-push:
